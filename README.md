@@ -54,22 +54,6 @@ chmod +x scripts/setup_check.sh
 ./scripts/setup_check.sh
 ```
 
-### Example Output
-
-```text
-Setup Initiated
-Hostname: nayan-OMEN-Gaming-Laptop-16-ae0xxx
-Current User: nayan
-OS Version: 6.17.0-35-generic
-Date: Mon Jun 29 08:04:27 PM IST 2026
-[OK] git
-[OK] python3
-[OK] pip3
-[OK] ros2
-Disk Status: [NORMAL]
-Setup Completed
-```
-
 ---
 
 ## 2. git_summary.sh
@@ -102,29 +86,6 @@ Specific repository:
 ```bash
 ./scripts/git_summary.sh /path/to/repository
 ```
-
-### Example Output
-
-```text
-Path to Git Repo (leave blank for current directory):
-
-Current Branch:
-main
-
-Last 5 Commits:
-6c3f21d Update README
-84f1b0c Add git_summary.sh
-51d2e8a Add setup_check.sh
-b4a99fd Initial project setup
-a73e5b2 Initial commit
-
-Uncommitted Changes:
-2
-
-Done.
-```
-
----
 
 ## Author
 
